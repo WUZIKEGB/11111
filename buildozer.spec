@@ -17,6 +17,7 @@ android.minapi = 26
 android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
 android.accept_sdk_license = True
+android.skip_update = False
 
 android.allow_backup = True
 android.logcat_filters = *:S python:D
@@ -24,3 +25,4 @@ android.logcat_filters = *:S python:D
 [buildozer]
 log_level = 2
 warn_on_root = 1
+android_skip_update = False

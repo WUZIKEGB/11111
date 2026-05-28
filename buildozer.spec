@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
 
-requirements = python3==3.9,kivy==2.3.0,paho-mqtt==1.6.1,certifi,chardet,filetype,idna,urllib3
+requirements = python3==3.9,kivy==2.3.0,paho-mqtt==1.6.1,certifi,chardet,filetype,idna,urllib3,requests,six
 
 orientation = portrait
 fullscreen = 0
@@ -16,6 +16,7 @@ android.api = 33
 android.minapi = 26
 android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
+android.accept_sdk_license = True
 
 android.allow_backup = True
 android.logcat_filters = *:S python:D

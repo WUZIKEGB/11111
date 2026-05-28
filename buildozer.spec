@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0
 
-requirements = python3==3.9,kivy==2.3.0,paho-mqtt==1.6.1,certifi,chardet,filetype,idna,urllib3,requests,six
+requirements = hostpython3==3.9,python3==3.9,kivy==2.3.0,paho-mqtt==1.6.1,certifi,chardet,filetype,idna,urllib3,requests,six
 
 orientation = portrait
 fullscreen = 0

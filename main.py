@@ -300,7 +300,7 @@ class SewageRoot(BoxLayout):
 # ===================== App 入口 =====================
 class SewageApp(App):
     def build(self):
-        self.title = "污水池控制软件"
+        self.title = "水池远程软件"
         from paho.mqtt import client as mqtt_client
         self.root_widget = SewageRoot()
         client_id = f"kivy_mqtt_{int(time.time())}"

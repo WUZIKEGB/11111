@@ -1,5 +1,5 @@
 [app]
-title = 污水池控制系统
+title = 水池远程控制
 package.name = sewagecontrol
 package.domain = org.sewage
 source.dir = .

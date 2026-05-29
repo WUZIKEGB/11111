@@ -238,11 +238,11 @@ class SewageRoot(BoxLayout):
         Clock.schedule_once(lambda dt: self._update_disconnected_ui(), 0)
 
     def _update_connected_ui(self):
-        self.status_label.text = "[b]✅ 智能灌溉测试部[/b]"
+        self.status_label.text = "[b] 智能灌溉测试部[/b]"
         self.status_label.color = (0.18, 0.49, 0.2, 1)
 
     def _update_disconnected_ui(self):
-        self.status_label.text = "[b]❌ 连接失败[/b]"
+        self.status_label.text = "[b] 连接失败[/b]"
         self.status_label.color = (0.78, 0.16, 0.16, 1)
 
     def refresh_btn_click(self):

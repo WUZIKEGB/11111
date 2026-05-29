@@ -133,7 +133,7 @@ class SewageRoot(BoxLayout):
         self.add_widget(top)
 
         # ---- 水泵卡片 ----
-        pump_card = CardLayout(title="潜水泵远程控制")
+        pump_card = CardLayout(title="水泵远程控制")
         pump_title = Label(
             text="[b]潜水泵远程控制[/b]", markup=True, font_name="DroidSansFallback",
             font_size=sp(15), color=(0.1, 0.1, 0.1, 1),
